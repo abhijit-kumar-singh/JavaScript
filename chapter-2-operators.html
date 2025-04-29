@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 2: Operators and Expressions</title>
+</head>
+<body>
+  <h1>Chapter 2: Operators and Expressions</h1>
+  <p>Open the browser console to see the output (Right-click > Inspect > Console).</p>
+
+  <script>
+    // Arithmetic Operators
+    let a = 10;
+    let b = 3;
+
+    console.log("Addition:", a + b);
+    console.log("Subtraction:", a - b);
+    console.log("Multiplication:", a * b);
+    console.log("Division:", a / b);
+    console.log("Modulus (Remainder):", a % b);
+    console.log("Exponentiation:", a ** b);
+
+    // Assignment Operators
+    let x = 5;
+    x += 2;  // x = x + 2
+    console.log("x after += 2:", x);
+
+    // Comparison Operators
+    console.log("Is 10 > 5?", 10 > 5);
+    console.log("Is 10 == '10'?", 10 == '10');   // true (loose equality)
+    console.log("Is 10 === '10'?", 10 === '10'); // false (strict equality)
+    console.log("Is 10 !== 5?", 10 !== 5);
+
+    // Logical Operators
+    let isLoggedIn = true;
+    let isAdmin = false;
+    console.log("AND (&&):", isLoggedIn && isAdmin);
+    console.log("OR (||):", isLoggedIn || isAdmin);
+    console.log("NOT (!):", !isLoggedIn);
+  </script>
+</body>
+</html>
