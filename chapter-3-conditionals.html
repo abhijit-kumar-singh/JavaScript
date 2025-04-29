@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter 3: Conditional Statements</title>
+</head>
+<body>
+  <h1>Chapter 3: Conditional Statements</h1>
+  <p>Open the browser console to see the output (Right-click > Inspect > Console).</p>
+
+  <script>
+    let marks = 85;
+
+    // if-else statement
+    if (marks >= 90) {
+      console.log("Grade: A");
+    } else if (marks >= 75) {
+      console.log("Grade: B");
+    } else if (marks >= 60) {
+      console.log("Grade: C");
+    } else {
+      console.log("Grade: D");
+    }
+
+    // switch-case example
+    let day = 3;
+    switch(day) {
+      case 1:
+        console.log("Monday");
+        break;
+      case 2:
+        console.log("Tuesday");
+        break;
+      case 3:
+        console.log("Wednesday");
+        break;
+      case 4:
+        console.log("Thursday");
+        break;
+      default:
+        console.log("Another day");
+    }
+
+    // Ternary operator
+    let age = 20;
+    let canVote = (age >= 18) ? "Yes" : "No";
+    console.log("Can Vote?", canVote);
+  </script>
+</body>
+</html>
