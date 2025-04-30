@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chapter 5: Arrays</title>
+</head>
+<body>
+  <h1>Chapter 5: Arrays</h1>
+  <p>Array basics with methods in the console.</p>
+
+  <script>
+    const numbers = [1, 2, 3];
+    numbers.push(4);
+    console.log("After push:", numbers);
+
+    numbers.pop();
+    console.log("After pop:", numbers);
+
+    numbers.forEach(num => console.log("ForEach:", num));
+
+    const squared = numbers.map(n => n * n);
+    console.log("Squared:", squared);
+  </script>
+</body>
+</html>
