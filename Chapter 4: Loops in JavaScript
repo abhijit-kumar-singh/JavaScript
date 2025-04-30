@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapter 4: Loops</title>
+</head>
+<body>
+  <h1>Chapter 4: Loops</h1>
+  <p>Open the browser console to see the output (Right-click > Inspect > Console).</p>
+
+  <script>
+    // for loop
+    for (let i = 1; i <= 5; i++) {
+      console.log("For Loop Iteration:", i);
+    }
+
+    // while loop
+    let count = 0;
+    while (count < 3) {
+      console.log("While Loop Count:", count);
+      count++;
+    }
+
+    // do-while loop
+    let num = 5;
+    do {
+      console.log("Do-While Number:", num);
+      num--;
+    } while (num > 0);
+
+    // for-of loop (array)
+    const fruits = ["apple", "banana", "cherry"];
+    for (const fruit of fruits) {
+      console.log("Fruit:", fruit);
+    }
+
+    // for-in loop (object)
+    const person = { name: "Alice", age: 25 };
+    for (const key in person) {
+      console.log(`${key}: ${person[key]}`);
+    }
+  </script>
+</body>
+</html>
